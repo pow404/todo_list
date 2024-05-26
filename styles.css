@@ -1,7 +1,12 @@
 body {
-  background-color: blue;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
   color: yellow;
   text-align: center;
+  height: 100vh; /* Ensure full height background */
+  margin: 0; /* Remove default margin */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card {
