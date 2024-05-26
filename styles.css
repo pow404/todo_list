@@ -1,8 +1,22 @@
 body {
-    background-color: #f8f9fa;
-  }
-  
-  .card {
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-  }
-  
+  background-color: blue;
+  color: yellow;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.input-group {
+  justify-content: center;
+}
+
+#new-task {
+  width: 70%;
+  margin: 0 auto;
+}
+
+#add-task-btn {
+  margin-left: 10px;
+}
